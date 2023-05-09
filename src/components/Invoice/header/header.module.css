@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.container__img{
+    background-image: url('/public/cai_logo.svg');
+    background-size: contain;
+    width: 100%;
+    min-height: 150px;
+    max-width: 300px;
+    background-repeat: no-repeat;
+}
+.container__detailsContainer{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    text-align: left;
+}
+
+.container__details{
+    display: flex;
+    gap:10px;
+    text-align: left;
+}
+
+.container__receipientDetails{
+    display: flex;
+    flex-direction: column;
+}

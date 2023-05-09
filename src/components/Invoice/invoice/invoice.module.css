@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+th{
+    font-weight: 400;
+}
+th label{
+    font-weight: 700;
+}
+th .divider{
+    width: 4em;
+   height: 1px;
+   background-color: grey;
+}
+th span{
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+th input[type='search']{
+    outline: none;
+}
+.dropZone{
+    text-align: center;
+    line-height: 100px;
+    margin-top: 30vh;
+    height: 14vh;
+    width: 30vw;
+    border: 1px grey dotted;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
